@@ -1,13 +1,16 @@
 import React from "react";
+import { NavLink } from 'react-router-dom'
 
 const Nav = () => {
     return (
         <div>
-            <div class="ui massive inverted segment">
-                <div class="ui inverted secondary pointing menu">
-                    <a class="yellow item active">HOME</a>
-                    <a class="yellow item">SERVICES</a>
-                    <a class="yellow item">CONTACT US</a>
+            <div className="ui massive inverted segment">
+                <div className="ui inverted secondary pointing menu">
+                    <div className="right menu">
+                        <NavLink className="yellow item" to='/'>HOME</NavLink>
+                        <NavLink className="yellow item" to='/services'>SERVICES</NavLink>
+                        <NavLink className="yellow item" to='/contact'>CONTACT US</NavLink>
+                    </div>
                 </div>
             </div>
         </div>
