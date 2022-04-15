@@ -1,0 +1,23 @@
+/* .intro{
+    background-image: url("../../Components/Photos/trailor3.jpeg");
+    background-size:contain;
+} */
+
+.d-block{
+    height: 5%;
+    width: 5%;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-content: space-between;
+}
+
+.footer-info{
+    width: 33%;
+    color: rgb(255, 255, 255);
+    padding: 2%;
+}

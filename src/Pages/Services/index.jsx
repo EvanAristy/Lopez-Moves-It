@@ -7,7 +7,7 @@ const Services = () => {
 
             <div className="ui card">
                 <a className="image" href="#">
-                    <img></img>
+                    <img src='https://standupguys.biz/georgia/files/2018/09/lawrenceville-junk-removal.-750x400.jpg' />
                 </a>
                 <div className="content">
                     <p className="header">Junk Removal</p>
@@ -25,7 +25,7 @@ const Services = () => {
 
             <div className="ui card">
                 <a className="image" href="#">
-                    <img></img>
+                    <img />
                 </a>
                 <div className="content">
                     <p className="header">Item Pick-up/Drop off</p>
